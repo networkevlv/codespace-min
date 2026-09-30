@@ -1,0 +1,13 @@
+{
+  "name": "Minimal Codespace",
+
+  "features": {
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
+      "installDockerBuildx": false,
+      "dockerDashComposeVersion": "none",
+      "installDockerComposeSwitch": false
+    }
+  },
+
+  "remoteUser": "root"
+}
